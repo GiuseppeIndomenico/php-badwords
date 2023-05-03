@@ -14,7 +14,7 @@ $parCen = str_replace("cazzo", "*****", $par);
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Scrittura</title>
 </head>
-<body  class="bg-dark">
+<body  class="bg-dark text-light">
     <div  class="d-flex align-items-center justify-content-center mt-5 flex-column">
 
 
