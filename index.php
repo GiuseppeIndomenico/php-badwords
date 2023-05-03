@@ -8,13 +8,13 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>prova</title>
 </head>
-<body>
+<body class="bg-dark">
     <div class="d-flex align-items-center justify-content-center mt-5">
 
         <form action="scrivi.php" method="post">
-            <label for="par">paragrafo 1</label>
-            <input type="text" name="par">
-            <button class="btn btn-success"> premimi</button>
+            <label for="par">puoi scrivere tutto tranne "cazzo"</label>
+            <input placeholder='scrivi qui' type="text" name="par">
+            <button class="btn btn-success">Stampa</button>
         </form>
     </div>
 </body>
