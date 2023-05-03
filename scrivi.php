@@ -19,15 +19,11 @@ $parCen = str_replace("cazzo", "*****", $par);
 
 
         <h1>
-            <?php echo $par ?>
+            <?php echo $parCen ?>
         </h1>
         <p class="text-danger">
-            lunghezza frase: <?php echo strlen($par)?> 
+            lunghezza frase: <?php echo strlen($parCen)?> 
         </p>
-
-        <h1>
-        <?php echo $parCen ?>
-        </h1>
     </div>
 </body>
 </html>
