@@ -12,8 +12,10 @@
     <div class="d-flex align-items-center justify-content-center mt-5">
 
         <form action="scrivi.php" method="post">
-            <label for="par">puoi scrivere tutto tranne "cazzo"</label>
-            <input placeholder='scrivi qui' type="text" name="par">
+            <label for="par">scrivi paragrafo qui</label>
+            <input placeholder='paragrafo qui' type="text" name="par">
+            <label for="cen"> scrivi la Parola da censurare</label>
+            <input placeholder='censura qui' name='cen' type="text">
             <button class="btn btn-success">Stampa</button>
         </form>
     </div>

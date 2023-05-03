@@ -1,6 +1,7 @@
 <?php
 $par = trim($_POST["par"]);
-$parCen = str_replace("cazzo", "*****", $par);
+$cen = trim($_POST["cen"]);
+$parCen = str_replace($cen, "***", $par);
 ?>
 
 
